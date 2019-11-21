@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    max-width: 50%;
+    }
+    .titulo {
+    border-bottom: solid 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .categorias{
+    list-style-type: none;
+    }
+    .categorias li {
+    cursor: pointer;
+    padding: .3em;
+    background-color: gray;
+    margin-bottom: 2px;
+    color: white;
+    }
+    .categorias li:hover{
+    color:blue;
+    }
+    button {
+    float:right;
+    }
